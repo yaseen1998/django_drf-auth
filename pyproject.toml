@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "drf-api"
+version = "0.1.0"
+description = ""
+authors = ["yaseen1998 <yasseenkouthe@eng.hu.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+djangorestframework-simplejwt = "^5.0.0"
+gunicorn = "^20.1.0"
+whitenoise = "^5.3.0"
+
+[tool.poetry.dev-dependencies]
+Django = "^4.0"
+djangorestframework = "^3.13.0"
+black = "^21.12b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
